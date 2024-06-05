@@ -1,0 +1,38 @@
+.game__card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 10px 13px rgba(35, 35, 95, 0.19);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  height: 230px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.game__card:hover {
+  scale: 1.03;
+  transition: all 0.3s ease-in-out;
+}
+
+.game__card__top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.game__card__bottom {
+  color: rgba(57, 65, 75, 1);
+  padding: 12px, 18px, 18px, 18px;
+}
+
+.game__card__bottom h2 {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 18px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
