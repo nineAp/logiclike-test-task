@@ -1,6 +1,6 @@
 .games_content {
   display: grid;
-  grid-template-columns: 264px auto;
+  grid-template-columns: 264px 1fr;
   gap: 24px;
   align-items: start;
 }
